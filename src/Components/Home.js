@@ -39,12 +39,12 @@ export function User({ userList }) {
   const nav = useNavigate();
   return (
     <div className="user-profile">
-      <h1 style={{ textAlign: "center", paddingTop: "5rem" }}>U-{id}</h1>
+      <h1 style={{ textAlign: "center", paddingTop: "5rem" }}>USER-{id}</h1>
       <div className="user" style={{ textAlign: "center" }}>
-        <h3 className="user-name">Name: {userList[id].Name}</h3>
-        <p className="user-gender">Gender: {userList[id].Gender}</p>
-        <p className="user-email">Email-Id: {userList[id].EmailId}</p>
-        <p className="user-phone">Phone Number: {userList[id].PhoneNo}</p>
+        <h3 className="user-name">Name : {userList[id].Name}</h3>
+        <p className="user-gender">Gender : {userList[id].Gender}</p>
+        <p className="user-email">Email-Id : {userList[id].EmailId}</p>
+        <p className="user-phone">Phone Number : {userList[id].PhoneNo}</p>
 
         <Button
           variant="contained"
