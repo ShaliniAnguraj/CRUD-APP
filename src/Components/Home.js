@@ -23,7 +23,7 @@ function Users({ user, keyid }) {
       <Button
         variant="contained"
         size="small"
-        color="success"
+        color="primary"
         onClick={() => {
           nav("/users/user/" + keyid);
         }}
